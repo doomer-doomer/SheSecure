@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "739170751544",
+    "project_id": "she-911f8",
+    "storage_bucket": "she-911f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739170751544:android:5e389001cf495c62b982cd",
+        "android_client_info": {
+          "package_name": "com.example.shesecure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpMBa-U4uePEBX2UeaZueWUzEthZjqvG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

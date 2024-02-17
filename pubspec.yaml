@@ -1,0 +1,51 @@
+name: shesecure
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  csc_picker: ^0.2.7
+  firebase_auth: ^4.17.4
+  firebase_core: ^2.25.4
+  flutter:
+    sdk: flutter
+  flutter_map: ^6.1.0
+  flutter_native_splash: ^2.3.10
+  flutter_secure_storage: ^9.0.0
+  fluttertoast: ^8.2.4
+  geolocator: ^11.0.0
+  google_fonts: ^6.1.0
+  http: ^1.2.0
+  latlng: ^2.0.5
+  mapbox_maps_flutter: ^0.5.1
+  mapbox_search: ^4.2.2
+  permission_handler: ^11.3.0
+  pinput: ^4.0.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#000000"
+  image : assets/staysafe.png
+  image_dark : assets/staysafe.png
+
+  android_12:
+
+    image : assets/staysafe.png
+    image_dark : assets/staysafe.png
+    icon_background_color : "#ffffff"
+    icon_background_color_dark : "#000000"
+
